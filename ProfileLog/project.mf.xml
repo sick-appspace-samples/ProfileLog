@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="ProfileLog">
+        <crown name="ProfileLog">
+            <desc>user script</desc>
+        </crown>
+        <meta key="author">Per Zetterlund</meta>
+        <meta key="version">1.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <entry path="pages" default="AppSpaceViewers-2.4.0.1.msdd">
+            <file type="application/zip">AppSpaceViewers-2.4.0.1.msdd</file>
+        </entry>
+        <entry path="resources">
+            <file type="application">temperatures.csv</file>
+        </entry>
+        <entry path="scripts" default="ProfileLog.lua">
+            <file type="text/x-lua">ProfileLog.lua</file>
+        </entry>
+    </application>
+</manifest>
