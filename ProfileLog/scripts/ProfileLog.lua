@@ -9,7 +9,7 @@ local function main()
   local temp = Profile.load('resources/temperatures.csv')
   local tempIdx = 0
 
-  -- Emulate capturing of measurement
+  ---Emulate capturing of measurement
   local function getMeasurement()
     local value = temp:getValue(tempIdx)
     tempIdx = tempIdx + 1
